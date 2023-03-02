@@ -51,7 +51,7 @@ export default function ServicesPage() {
             className="path"
             src={require("../assets/img/path4.png")}
           />
-          <Container className="align-items-center">
+          <Container className="align-items-center mt-3">
             <Row>
               <Col lg="6" md="6" className="">
                 <h1 className="profile-title text-left"> Cibil Score</h1>

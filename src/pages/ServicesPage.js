@@ -38,8 +38,8 @@ export default function ServicesPage() {
  
   return (
     <>
-    <br/>    <br/>
-      <div className="wrapper">
+    
+      <div className="wrapper" >
         <div id="checkcibilscore" className="page-header">
           <img
             alt="..."
@@ -54,7 +54,7 @@ export default function ServicesPage() {
           <Container className="align-items-center">
             <Row>
               <Col lg="6" md="6" className="">
-                <h1 className="profile-title text-left">Free Cibil Score</h1>
+                <h1 className="profile-title text-left"> Cibil Score</h1>
                 <h5 className="text-on-back">01</h5>
                 <p className="profile-description">
                   Offices parties lasting outward nothing age few resolve.

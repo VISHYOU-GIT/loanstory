@@ -5,9 +5,13 @@ export async function GenerateOTPFunction(
   setResponseMessage,
   setShowModal
 ) {
+
+  
   try {
     const response = await api.get(
-      `FormmData/Generate_Otp_Process?SecurityKey=${SECURITY_KEY}&mobile=${payload?.mobile}&PANNO=${payload?.PANNO}&Success=1`
+      `FormmData/Generate_Otp_Process?SecurityKey=${SECURITY_KEY}&mobile=${payload?.mobile}&PANNO=${payload?.PANNO}&Success=1`,{mode:'cors'}
+    
+    
     );
     const Status = JSON.parse(response?.data?.Status);
     if (Status == "0") {
@@ -44,7 +48,7 @@ export async function VerifyOTPFunction(
   try {
     const response = await api.get(
       `FormmData/Verify_Otp?SecurityKey=${SECURITY_KEY}&mobile=${payload?.mobile}&OTP=${OTP}&Name=${payload?.Name}&Email=${payload?.Email}&PANNO=${payload?.PANNO}`
-    );
+      , { mode: 'cors' } );
     const Status = response?.data?.Status;
     if (Status == "0") {
       setResponseMessage("Mobile Name Required");

@@ -56,22 +56,22 @@ export default function LandingPage() {
             <Container>
               <Row className="row-grid justify-content-between align-items-center text-left">
                 <Col lg="6" md="6">
-                  <h1 className="text-white">
-                    Lets Start your
-                    <br />
-                    <span className="text-white">LOANSTORY</span>
-                    <br />
-                    with us.
-                  </h1>
-                  <p className="text-white mb-3">
+                  <b className="text-white h1 " style={{ fontFamily: 'Alatsi',lineHeight:'40px'}}>
+               Let's start Your 
+                
+                    Loanstory
+                <br/>
+                 Together.
+                  </b>
+                  {/* <p className="text-white mb-3 my-3">
                     A wonderful serenity has taken possession of my entire soul,
                     like these sweet mornings of spring which I enjoy with my
                     whole heart. I am alone, and feel...
-                  </p>
+                  </p> */}
                   <Link to={"/services"}>
                     <div className="btn-wrapper mb-3">
-                      <p className="category text-success d-inline">
-                        check cibil score for free
+                      <p className="category text-success align-middle d-inline">
+                        check credit analysis report
                       </p>
                       <Button
                         className="btn-link"
@@ -86,38 +86,36 @@ export default function LandingPage() {
                   </Link>
                   <div className="btn-wrapper">
                     <div className="button-container">
-                      <Button
-                        className="btn-icon btn-simple btn-round btn-neutral"
-                        color="default"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                      >
+                      <a href={"https://www.linkedin.com/in/ayush-mittal-5a2483213"} className=" border border-2 text-white  rounded-circle mx-1" style={{ zIndex: '11111', padding:'2%' }} >     
+                        <i class="fa-brands fa-linkedin-in "></i>
+                      
+                      </a>
+                      
+                      <a href={"tel://8871428818"} className=" border border-2 text-white  rounded-circle mx-1 " style={{ zIndex: '11111', padding:'2%' }} >     
                         <i className="fas fa-phone" />
-                      </Button>
-                      <Button
-                        className="btn-icon btn-simple btn-round btn-neutral"
-                        color="default"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className="fab fa-instagram" />
-                      </Button>
-                      <Button
-                        className="btn-icon btn-simple btn-round btn-neutral"
-                        color="default"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className="fab fa-facebook" />
-                      </Button>
+                      
+                      </a>
+                      
+                      <a href={"https://instagram.com/loanstory.in?igshid=ZDdkNTZiNTM= "} className=" border border-2 text-white  rounded-circle mx-1 " style={{ zIndex: '11111', padding:'2%' }} >     
+                        <i class="fa-brands fa-instagram"></i>
+                      
+                      </a>
+                      
                     </div>
                   </div>
                 </Col>
                 <Col lg="4" md="5">
                   <img
                     alt="..."
-                    className="img-fluid"
-                    src={require("../assets/img/etherum.png")}
+                    className="d-none d-md-block " width={'380'}
+                    style={{scale:'2'}}
+                    src={require("../assets/img/etherium.png")}
+                  />
+                  <img
+                    alt="..."
+                    className="d-block d-md-none "  width={'180'}
+                    style={{scale:'2', marginTop:'38%', marginLeft:'17%'}}
+                    src={require("../assets/img/etherium.png")}
                   />
                 </Col>
               </Row>
@@ -144,13 +142,13 @@ export default function LandingPage() {
               src={require("../assets/img/path3.png")}
             />
 
-            <Container>
+            <Container id="service">
               <Row>
                 <Col md="4">
                   <hr className="line-info" />
-                  <h1>
+                  <h2>
                     Services <span className="text-info">we offer you</span>
-                  </h1>
+                  </h2>
                 </Col>
               </Row>
               <Row style={{ marginTop: "8rem" }} className="">
@@ -160,14 +158,14 @@ export default function LandingPage() {
                       <img
                         alt="..."
                         className="img-center img-fluid"
-                        src={require("../assets/img/bitcoin.png")}
+                        src={require("../assets/img/etherum.png")}
                       />
                     </CardHeader>
                     <CardBody>
                       <Row>
                         <Col className="text-center" md="12">
-                          <h4 className="text-uppercase">Check Cibil Score</h4>
-                          <span>Free</span>
+                          <h4 className="text-uppercase">check credit analysis report</h4>
+                          <span>    </span>
                           <hr className="line-primary" />
                         </Col>
                       </Row>
@@ -193,16 +191,16 @@ export default function LandingPage() {
                       <img
                         alt="..."
                         className="img-center img-fluid"
-                        src={require("../assets/img/etherum.png")}
+                        src={require("../assets/img/bitcoin.png")}
                       />
                     </CardHeader>
                     <CardBody>
                       <Row>
                         <Col className="text-center" md="12">
                           <h4 className="text-uppercase">
-                            Check Loan Eligibility
+                            Check Credit Score
                           </h4>
-                          <span>Free</span>
+                          <span>    </span>
                           <hr className="line-success" />
                         </Col>
                       </Row>
@@ -234,7 +232,7 @@ export default function LandingPage() {
                       <Row>
                         <Col className="text-center" md="12">
                           <h4 className="text-uppercase">Loan Enquiry</h4>
-                          <span>Free</span>
+                          <span>   </span>
                           <hr className="line-info" />
                         </Col>
                       </Row>

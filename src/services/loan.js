@@ -4,7 +4,7 @@ export async function GetAllLoanCategories() {
   var result = null;
   try {
     const response = await api.get(
-      `FormmData/Get_Loan_Category?SecurityKey=${SECURITY_KEY}`
+      `FormmData/Get_Loan_Category?SecurityKey=${SECURITY_KEY}`, { mode: 'cors' }
     );
     if (response?.status === 200) {
     }
@@ -18,7 +18,7 @@ export async function GetAllBenifitCategories() {
   var result = null;
   try {
     const response = await api.get(
-      `FormmData/Get_Benifit_Category?SecurityKey=${SECURITY_KEY}`
+      `FormmData/Get_Benifit_Category?SecurityKey=${SECURITY_KEY}`, { mode: 'cors' }
     );
     if (response?.status === 200) {
     }

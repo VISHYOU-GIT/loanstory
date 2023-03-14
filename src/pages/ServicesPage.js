@@ -19,8 +19,14 @@ import {
 export default function ServicesPage() {
   return (
     <>
+<<<<<<< HEAD
       <div className="wrapper">
         <div id="checkcibilscore" className="d-flex justify-content-center align-items-center page-header">
+=======
+    
+      <div className="wrapper" >
+        <div id="checkcibilscore" className="page-header">
+>>>>>>> 525f75b7e0cf84418982426b5c4c5580bcecf270
           <img
             alt="..."
             className="dots"
@@ -31,10 +37,11 @@ export default function ServicesPage() {
             className="path"
             src={require("../assets/img/path4.png")}
           />
-          <Container className="align-items-center">
+                 <br/><br/><br/><br/>
+          <Container className="align-items-center mt-3">
             <Row>
               <Col lg="6" md="6" className="">
-                <h1 className="profile-title text-left">Free Cibil Score</h1>
+                <h1 className="profile-title text-left"> Cibil Score</h1>
                 <h5 className="text-on-back">01</h5>
                 <p className="profile-description">
                   Offices parties lasting outward nothing age few resolve.

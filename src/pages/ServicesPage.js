@@ -19,14 +19,14 @@ import {
 export default function ServicesPage() {
   return (
     <>
-<<<<<<< HEAD
+
       <div className="wrapper">
         <div id="checkcibilscore" className="d-flex justify-content-center align-items-center page-header">
-=======
+
     
       <div className="wrapper" >
         <div id="checkcibilscore" className="page-header">
->>>>>>> 525f75b7e0cf84418982426b5c4c5580bcecf270
+
           <img
             alt="..."
             className="dots"

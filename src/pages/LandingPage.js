@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from "react";
 import Clip from "../assets/img/step.mp4";
 // reactstrap components

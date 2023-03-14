@@ -3,10 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://95.217.84.225:3151/",
-<<<<<<< HEAD
-=======
-  
->>>>>>> 525f75b7e0cf84418982426b5c4c5580bcecf270
+
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
     "@tanstack/react-query": "^4.24.6",

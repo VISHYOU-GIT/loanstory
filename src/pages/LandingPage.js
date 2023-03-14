@@ -68,7 +68,7 @@ export default function LandingPage() {
                     like these sweet mornings of spring which I enjoy with my
                     whole heart. I am alone, and feel...
                   </p> */}
-                  <Link to={"/services"}>
+                  <Link to={"/analysis"}>
                     <div className="btn-wrapper mb-3">
                       <p className="category text-success align-middle d-inline">
                         check credit analysis report
@@ -125,16 +125,16 @@ export default function LandingPage() {
         {/* VIDEO */}
         <Container>
           <video
-            autoPlay={"true"}
-            muted={"true"}
-            loop={"true"}
+            autoPlay={true}
+            muted={true}
+            loop={true}
             className={"w-100 mt-5"}
           >
             <source src={Clip} style={{ width: "25%" }} />
           </video>
         </Container>
         {/* SERVICES  */}
-        <section className="section section-lg">
+        <section id="service" className="section section-lg">
           <section className="section">
             <img
               alt="..."
@@ -142,7 +142,7 @@ export default function LandingPage() {
               src={require("../assets/img/path3.png")}
             />
 
-            <Container id="service">
+            <Container>
               <Row>
                 <Col md="4">
                   <hr className="line-info" />
@@ -177,7 +177,7 @@ export default function LandingPage() {
                       </Row>
                     </CardBody>
                     <CardFooter className="text-center">
-                      <Link to={"/services"}>
+                      <Link to={"/eligibility"}>
                         <Button className="btn-simple" color="primary">
                           Let's Go!
                         </Button>
@@ -211,7 +211,7 @@ export default function LandingPage() {
                       </Row>
                     </CardBody>
                     <CardFooter className="text-center">
-                      <Link to={"/services"}>
+                      <Link to={"/analysis"}>
                         <Button className="btn-simple" color="success">
                           Let's Go!
                         </Button>
@@ -244,7 +244,7 @@ export default function LandingPage() {
                       </Row>
                     </CardBody>
                     <CardFooter className="text-center">
-                      <Link to={"/services"}>
+                      <Link to={"/enquiry"}>
                         <Button className="btn-simple" color="info">
                           Let's Go!
                         </Button>

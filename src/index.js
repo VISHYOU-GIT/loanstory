@@ -7,6 +7,9 @@ import "./assets/css/nucleo-icons.css";
 import reportWebVitals from "./reportWebVitals";
 // import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Elegibility_Checker from "./pages/eligible.js";
+import EnquiryForm from "./pages/enquiry.js";
+import Cibil_Score from "./pages/cibil.js";
 import {
   ContactPage,
   HowItWorks,
@@ -47,6 +50,21 @@ root.render(
           <Route
             path="/howitworks"
             render={(props) => <HowItWorks {...props} />}
+          />
+          <Route
+            exact
+            path="/eligibility"
+          render={(props) => <Elegibility_Checker {...props} />}
+          />
+          <Route
+            exact
+            path="/enquiry"
+          render={(props) => <EnquiryForm {...props} />}
+          />
+          <Route
+            exact
+            path="/analysis"
+          render={(props) => <Cibil_Score {...props} />}
           />
           <Route
             exact

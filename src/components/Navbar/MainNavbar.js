@@ -52,6 +52,13 @@ export default function MainNavbar() {
       .getElementById("download-section")
       .scrollIntoView({ behavior: "smooth" });
   };
+  const handleClickScroll = () => {
+    const element = document.getElementById('service');
+    if (element) {
+      // 👇 Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
       <Container>
@@ -112,10 +119,10 @@ export default function MainNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                to="/services"
+               
                 title="Follow us on Twitter"
                 tag={Link}
-                onClick={toggleCollapse}
+                onClick={() => { toggleCollapse(); handleClickScroll() } }
               >
                 Services
               </NavLink>

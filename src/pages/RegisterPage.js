@@ -93,9 +93,9 @@ export default function RegisterPage() {
                         src={require("../assets/img/square-purple-1.png")}
                       />
                       <CardTitle
-                        style={{ color: "white", textTransform: "capitalize" }}
-                        className={"p-md-2"}
-                        tag="h4"
+                        style={{ color: "white", textTransform: "capitalize",fontSize:'50px' }}
+                        className={"p-md-2 text-normal"}
+                        
                       >
                         Register
                       </CardTitle>

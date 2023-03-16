@@ -29,8 +29,8 @@ export default function Cibil_Score() {
     <Container className="align-items-center">
       <Row>
         <Col lg="6" md="6" className="">
-          <h1 className="profile-title text-left">Free Cibil Score</h1>
-          <h5 className="text-on-back">01</h5>
+          <h1 className="profile-title text-left">Finance Analysis </h1>
+          <h5 className="text-on-back">CHECK</h5>
           <p className="profile-description">
             Offices parties lasting outward nothing age few resolve.
             Impression to discretion understood to we interested he

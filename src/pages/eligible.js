@@ -121,7 +121,7 @@ export default function Elegibility_Checker() {
                             </Col>
                             <Col md="5" className="">
                                 <h1 className="profile-title text-left">Loan Eligibility</h1>
-                                <h5 className="text-on-back">02</h5>
+                                <h5 className="text-on-back">FREE</h5>
                                 <p className="profile-description text-left">
                                     An artist of considerable range, Ryan — the name taken by
                                     Melbourne-raised, Brooklyn-based Nick Murphy — writes,

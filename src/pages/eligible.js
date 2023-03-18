@@ -15,6 +15,8 @@ import {
 
 export default function Elegibility_Checker() {
     return (
+        <>
+        <br/><br/><br/>
         <div className="wrapper">
             <div id="checkcibilscore" className="d-flex justify-content-center align-items-center page-header">
                 <img
@@ -153,5 +155,6 @@ export default function Elegibility_Checker() {
                 </div>
             </div>
         </div>
+</>
     )
 }

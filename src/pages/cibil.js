@@ -15,7 +15,7 @@ import {
 
 export default function Cibil_Score() {
   return (
-    <div id="checkcibilscore" className="d-flex justify-content-center align-items-center page-header">
+    <div id="checkcibilscore"  className="d-flex mt-5 justify-content-center align-items-center page-header">
     <img
       alt="..."
       className="dots"

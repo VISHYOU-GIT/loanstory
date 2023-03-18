@@ -122,7 +122,7 @@ export default function MainNavbar() {
                
                 title="Follow us on Twitter"
                 tag={Link}
-                onClick={() => { toggleCollapse(); handleClickScroll() } }
+                onClick={() => { toggleCollapse(); handleClickScroll(); window.location='/'; } }
               >
                 Services
               </NavLink>

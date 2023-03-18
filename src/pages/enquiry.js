@@ -14,6 +14,8 @@ import {
 } from "reactstrap";
 export default function EnquiryForm() {
     return (
+        <>
+        <br/><br/><br/>
         <div className="wrapper">
             <div id="checkcibilscore" className="d-flex justify-content-center align-items-center page-header">
                 <img
@@ -126,5 +128,6 @@ export default function EnquiryForm() {
                 </section>
             </div>
         </div>
+</>
     )
 }

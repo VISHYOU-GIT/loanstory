@@ -230,7 +230,7 @@ export default function LandingPage() {
                     <CardBody>
                       <Row>
                         <Col className="text-center" md="12">
-                          <h4 className="text-uppercase">Detailed Loan Counselling<br/></h4>
+                          <h4 className="text-uppercase">Detailed Loan Counselling<br/> Anytime</h4>
                           <span>   </span>
                           <hr className="line-info" />
                         </Col>

@@ -164,15 +164,14 @@ export default function LandingPage() {
                     <CardBody>
                       <Row>
                         <Col className="text-center" md="12">
-                          <h4 className="text-uppercase">check credit analysis report</h4>
+                          <h4 className="text-uppercase">check loanstory analysis report</h4>
                           <span>    </span>
                           <hr className="line-primary" />
                         </Col>
                       </Row>
                       <Row>
                         <p className="px-5 ">
-                          Check your cibil score here. Know your cibil in just
-                          some click for free.
+                        Get your credit profile assessment report.
                         </p>
                       </Row>
                     </CardBody>

@@ -18,6 +18,15 @@ import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 
 export default function LandingPage() {
+  const countElement = document.getElementById('count');
+
+update();
+
+function update() {
+	fetch('https://api.countapi.xyz/update/https://loanstory-git-visu-vishyou-git.vercel.app/?amount=1').then(res => res.json()).then(res => {
+		countElement.innerHTML = res.value;
+	})
+}
   return (
     <>
       <div className="wrapper">
@@ -348,7 +357,7 @@ export default function LandingPage() {
                             </Col>
                             <Col md="8" xs="7">
                               <div className="numbers">
-                                <CardTitle tag="p">10,783</CardTitle>
+                                <CardTitle tag="p" id="count"></CardTitle>
                                 <p />
                                 <p className="card-category">Total visitors</p>
                               </div>

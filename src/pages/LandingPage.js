@@ -170,15 +170,15 @@ export default function LandingPage() {
                         </Col>
                       </Row>
                       <Row>
-                        <p className="px-5 ">
+                        <p className="px-5 text-center">
                         Get your detailed credit profile assessment report.
                         </p>
                       </Row>
                     </CardBody>
                     <CardFooter className="text-center">
-                      <Link to={"/eligibility"}>
+                      <Link to={"/"}>
                         <Button className="btn-simple" color="primary">
-                          Let's Go!
+                          Coming Soon
                         </Button>
                       </Link>
                     </CardFooter>
@@ -197,7 +197,7 @@ export default function LandingPage() {
                       <Row>
                         <Col className="text-center" md="12">
                           <h4 className="text-uppercase">
-                            Check Credit Score
+                            Check Credit Score<br/>
                           </h4>
                           <span>    </span>
                           <hr className="line-success" />
@@ -205,7 +205,7 @@ export default function LandingPage() {
                       </Row>
                       <Row>
                         <p className="px-5 text-center">
-                          Check !! Are you eligible for getting loan or not.
+                          Check your credit score with your data security.
                         </p>
                       </Row>
                     </CardBody>
@@ -230,14 +230,14 @@ export default function LandingPage() {
                     <CardBody>
                       <Row>
                         <Col className="text-center" md="12">
-                          <h4 className="text-uppercase">Loan Enquiry</h4>
+                          <h4 className="text-uppercase">Detailed Loan Counselling<br/></h4>
                           <span>   </span>
                           <hr className="line-info" />
                         </Col>
                       </Row>
                       <Row>
                         <p className="px-5 text-center">
-                          ASk your queries about getting loan and finance here
+                          Ask your queries about getting loan and finance here
                           !!
                         </p>
                       </Row>

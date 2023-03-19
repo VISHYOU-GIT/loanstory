@@ -124,7 +124,7 @@ export default function LandingPage() {
         </div>
         {/* VIDEO */}
         <Container>
-          <video style={{height:"200px"}}
+          <video style={{height:"500px"}}
             autoPlay={true}
             muted={true}
             loop={true}

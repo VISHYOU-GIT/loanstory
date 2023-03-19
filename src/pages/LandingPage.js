@@ -18,10 +18,7 @@ import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 
 export default function LandingPage() {
-  const countElement = document.getElementById('count');
-
-update();
-
+ 
 function cb(response) {
     document.getElementById('count').innerText = response.value;
 }

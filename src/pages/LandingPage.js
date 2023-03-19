@@ -146,7 +146,7 @@ export default function LandingPage() {
               <Row>
                 <Col md="4">
                   <hr className="line-info" />
-                  <h2>
+                  <h2 style={{fontFamily: 'Alatsi'}}>
                     Services <span className="text-info">we offer you</span>
                   </h2>
                 </Col>

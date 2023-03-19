@@ -171,7 +171,7 @@ export default function LandingPage() {
                       </Row>
                       <Row>
                         <p className="px-5 ">
-                        Get your credit profile assessment report.
+                        Get your detailed credit profile assessment report.
                         </p>
                       </Row>
                     </CardBody>

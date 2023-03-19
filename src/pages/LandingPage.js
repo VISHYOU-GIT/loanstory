@@ -279,7 +279,7 @@ export default function LandingPage() {
                               <div className="numbers">
                                 <CardTitle tag="p">3,237</CardTitle>
                                 <p />
-                                <p className="card-category">Awards</p>
+                                <p className="card-category">Counselling Count</p>
                               </div>
                             </Col>
                           </Row>
@@ -303,7 +303,7 @@ export default function LandingPage() {
                               <div className="numbers">
                                 <CardTitle tag="p">3,653</CardTitle>
                                 <p />
-                                <p className="card-category">Users</p>
+                                <p className="card-category">Credit Score Checked</p>
                               </div>
                             </Col>
                           </Row>
@@ -350,7 +350,7 @@ export default function LandingPage() {
                               <div className="numbers">
                                 <CardTitle tag="p">10,783</CardTitle>
                                 <p />
-                                <p className="card-category">Daily visitors</p>
+                                <p className="card-category">Total visitors</p>
                               </div>
                             </Col>
                           </Row>

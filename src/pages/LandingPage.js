@@ -352,7 +352,7 @@ function cb(response) {
                             </Col>
                             <Col md="8" xs="7">
                               <div className="numbers">
-                                <CardTitle tag="p" id="count"></CardTitle>
+                                <CardTitle tag="p" id="visits">0</CardTitle>
                                 <p />
                                 <p className="card-category">Total visitors</p>
                               </div>

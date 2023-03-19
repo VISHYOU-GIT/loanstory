@@ -22,10 +22,8 @@ export default function LandingPage() {
 
 update();
 
-function update() {
-	fetch('https://api.countapi.xyz/update/https://loanstory-git-visu-vishyou-git.vercel.app/?amount=1').then(res => res.json()).then(res => {
-		countElement.innerHTML = res.value;
-	})
+function cb(response) {
+    document.getElementById('count').innerText = response.value;
 }
   return (
     <>

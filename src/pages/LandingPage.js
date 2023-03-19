@@ -197,7 +197,7 @@ export default function LandingPage() {
                       <Row>
                         <Col className="text-center" md="12">
                           <h4 className="text-uppercase">
-                            Check Credit Score<br/>
+                            Check Credit Score<br/>Now
                           </h4>
                           <span>    </span>
                           <hr className="line-success" />
